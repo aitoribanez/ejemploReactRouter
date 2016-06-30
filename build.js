@@ -48,8 +48,8 @@ var App = function (_React$Component) {
             'li',
             null,
             _react2.default.createElement(
-              'a',
-              { href: '#user' },
+              _reactRouter.Link,
+              { to: '/user' },
               'User'
             )
           ),
@@ -57,8 +57,8 @@ var App = function (_React$Component) {
             'li',
             null,
             _react2.default.createElement(
-              'a',
-              { href: '#about' },
+              _reactRouter.Link,
+              { to: '/about' },
               'About'
             )
           )

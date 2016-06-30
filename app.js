@@ -8,8 +8,8 @@ class App extends React.Component {
 		return <div>
 		  <h1>App</h1>
       <ul>
-        <li><a href="#user">User</a></li>
-        <li><a href="#about">About</a></li>
+        <li><Link to="/user">User</Link></li>
+        <li><Link to="/about">About</Link></li>
       </ul>
       {this.props.children}
 		</div>
